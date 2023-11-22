@@ -15,22 +15,7 @@ const business_funds = () => {
             </Link>
           </div>
         </div>
-        <div className="w-full md:w-[376px] h-56 p-4 rounded-lg font-bold bg-black text-white shadow">
-          <div className="flex justify-between items-center">
-            <Image
-              src="/assets/valyoux_black_logo.svg"
-              width={50}
-              height={50}
-              alt="valyoux logo"
-            />
-            <div className="flex flex-col items-end">
-              <div>Business</div>
-            </div>
-          </div>
-          <div className="py-10 flex justify-center text-2xl">
-            <span>VXD : $ 10,000</span>
-          </div>
-        </div>
+
         <div className="flex flex-col gap-3 py-2">
           <Investments />
           <Investments />
