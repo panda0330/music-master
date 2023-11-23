@@ -28,7 +28,9 @@ const business_funds = () => {
             </div>
           </div>
           <div className="py-10 flex justify-center text-2xl">
-
+            <span>VXD : $ 10,000</span>
+          </div>
+        </div>
         <div className="flex flex-col gap-3 py-2">
           <Investments />
           <Investments />
