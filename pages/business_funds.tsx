@@ -23,6 +23,11 @@ const business_funds = () => {
               height={50}
               alt="valyoux logo"
             />
+            <div className="flex flex-col items-end">
+              <div>Business</div>
+            </div>
+          </div>
+          <div className="py-10 flex justify-center text-2xl">
 
         <div className="flex flex-col gap-3 py-2">
           <Investments />
