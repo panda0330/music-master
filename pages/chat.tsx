@@ -61,6 +61,20 @@ export const ChatComp = () => {
           <div className="flex items-end">
             <div className="flex flex-col space-y-2 text-xs max-w-xs mx-2 order-2 items-start">
               <div>
+                <span className="px-4 py-2 rounded-full inline-block bg-gray-200 text-gray-600">
+                  I am doing fine man. wbu?
+                </span>
+              </div>
+              <div>
+                <span className="px-4 py-2 rounded-full inline-block bg-gray-200 text-gray-600">
+                  How you doing?
+                </span>
+              </div>
+              <div>
+                <span className="px-4 py-2 rounded-full inline-block bg-gray-200 text-gray-600">
+                  Really it&#39;s been long
+                </span>
+              </div>
 
           </div>
         </div>
