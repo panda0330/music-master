@@ -170,7 +170,22 @@ export const ChatComp = () => {
           </div>
         </div>
       </div>
-
+      <footer className="bg-white border-t-[0.5px] p-2 bottom-0 w-[100%] absolute">
+        <div className="flex justify-between items-center gap-2">
+          <Image
+            src="/assets/comment_image.svg"
+            width={40}
+            height={40}
+            alt="comment image"
+          />
+          <input
+            placeholder="Type message..."
+            className="flex-1 outline-none border-none text-gray-500 px-1"
+          />
+          <div>
+            <button className="bg-[#FF0093] text-white p-2 rounded-full flex justify-center items-center">
+              <SendIcon />
+            </button>
           </div>
         </div>
       </footer>
