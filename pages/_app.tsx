@@ -67,6 +67,27 @@ const Header = () => {
         property="og:image"
         content="https://stocks.valyoux.io/public/assets/images/valyou_x_black_logo.svg"
       />
+      <title>Valyou X</title>
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet"
+      />
+
+      <link
+        rel="shortcut icon"
+        href="https://stocks.valyoux.io/public/assets/images/valyou_x_emblem.svg"
+      />
+    </Head>
+  );
+};
+
+function MyApp({ Component, pageProps }: AppProps) {
+  const [pageLoaded, setPageLoaded] = React.useState(false);
+  const router = useRouter();
+  
+  React.useEffect(() => {
+    setPageLoaded(true);
 
 
 export default wrapper.withRedux(MyApp);
