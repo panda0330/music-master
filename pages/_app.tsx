@@ -88,6 +88,14 @@ function MyApp({ Component, pageProps }: AppProps) {
   
   React.useEffect(() => {
     setPageLoaded(true);
-
+    localStorage.setItem("userProfile", "Artist");
+  }, []);
+  return (
+    <ThemeProvider theme={theme}>
+      <Header></Header>
+      {pageLoaded ? <Component {...pageProps} /> : null}
+    </ThemeProvider>
+  );
+}
 
 export default wrapper.withRedux(MyApp);

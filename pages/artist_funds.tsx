@@ -20,18 +20,7 @@ const artist_funds = () => {
             <Image
               src="/assets/valyoux_black_logo.svg"
               width={50}
-              height={50}
-              alt="valyoux logo"
-            />
-            <div className="flex flex-col items-end">
-              <div>Artist Funds</div>
-            </div>
-          </div>
-          <div className="py-10 flex justify-center text-2xl">
-            <span>VXD : $ 500,000</span>
-          </div>
-        </div>
-        <div className="flex flex-col gap-3 py-2">
+
           <Investments />
           <Investments />
           <Investments />
