@@ -32,6 +32,17 @@ const theme = createTheme({
         },
       },
     },
+    MuiButton: {
+      variants: [],
+    },
+  },
+  palette: {
+    primary: {
+      main: "#FF0093",
+    },
+  },
+});
+
 
 
 export default wrapper.withRedux(MyApp);
