@@ -44,7 +44,9 @@ const Exchange = () => {
           </div>
           <RadioSelect value={radioType} onChange={changeRadioType} />
           <br />
-
+          {radioType == "crypto" ? <Crypto /> : <Fiat />}
+        </div>
+      </div>
     </>
   );
 };
