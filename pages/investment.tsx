@@ -33,6 +33,21 @@ const investment = () => {
                 <Avatar
                   sx={{ width: 40, height: 40 }}
                   className="border-2 border-black"
+                  alt="Travis Howard"
+                  src="/assets/bobby_dp.jpeg"
+                />
+                <div className="flex-col px-2">
+                  <p className="lg:text-1xl font-bold">Bobby Oparaocha</p>
+                  <p className="flex items-center text-sm">
+                    <span>Investor / Music Fan</span>
+                    <span className="px-1 mt-[-2px]">
+                      <CheckCircleIcon
+                        sx={{ fill: "#22C55E", fontSize: "16px" }}
+                      />
+                    </span>
+                  </p>
+                </div>
+              </div>
 
         </div>
       </div>
