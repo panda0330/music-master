@@ -48,6 +48,22 @@ const investment = () => {
                   </p>
                 </div>
               </div>
+              <div className="border !border-black text-[#050f2f] rounded p-1 px-2">
+                Following
+              </div>
+            </div>
+          </CardContent>
+        </Card> */}
+        <div className="m-2 mr-4">
+          <div className="w-[90vw] md:w-[374px] h-52 p-4 rounded-lg bg-black shadow font-bold text-white flex flex-col justify-center items-center">
+            <span className="text-2xl">Investments : $ 154,000,000</span>
+            <div className="flex items-center justify-between w-[96%]">
+              <div className="text-[12px]">Music Artist Portfolio</div>
+              <span className="text-[12px] text-green-500">
+                Profit / Loss : + $10.08
+              </span>
+            </div>
+          </div>
 
         </div>
       </div>
